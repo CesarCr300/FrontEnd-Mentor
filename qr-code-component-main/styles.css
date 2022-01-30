@@ -1,0 +1,59 @@
+:root {
+  --gray: #8c919a;
+  --black: #2c3d5b;
+}
+
+body {
+  background-color: #d4e3ec;
+  margin: 0;
+}
+
+.text--black {
+  color: var(--black, #000);
+}
+
+.text--gray {
+  color: var(--gray);
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.QR {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: white;
+  border-radius: 20px;
+  max-width: 300px;
+  padding: 20px;
+}
+
+.QR__img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.QR__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  padding: 0px 10px;
+}
+.QR__title,
+.QR__text {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.QR__title {
+  font-size: 22px;
+}
+
+.QR__text {
+  font-size: 16px;
+}
